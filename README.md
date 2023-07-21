@@ -9,3 +9,5 @@
 
 ### Third Section
 ![NASA-website-image-3](https://github.com/dsuther12/NASA-mock-website/assets/79900504/f56b12a0-6257-458f-827f-fb40c4060150)
+
+Works on mobile too! Try it yourself!
