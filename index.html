@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
     <header class="header-container">
         <div class="logo">
-            <img src="img/nasa-logo.png" alt="nasa logo">
+            <a href="#"><img src="img/nasa-logo.png" alt="nasa logo"></a>
         </div>
         <nav class="desktop-main-menu">
             <ul>
@@ -22,22 +23,45 @@
                 <li><a href=#>About</a></li>
                 <li><a href=#>Nasa Audiences</a></li>
             </ul>
+            <!-- Hamburger menu icon -->
+            <div class="hamburger-menu" onclick="sideBar()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </nav>
+
+         <!--This menu is for when the sidebar is toggled-->
+        <div class="menu-toggle">
+            <li><a href=#>Missions</a></li>
+            <li><a href=#>Galleries</a></li>
+            <li><a href=#>NASA TV</a></li>
+            <li><a href=#>Follow NASA</a></li>
+            <li><a href=#>Downloads</a></li>
+            <li><a href=#>About</a></li>
+            <li><a href=#>Nasa Audiences</a></li>
+            <li><a href="#"><img src="img/nasa-logo-2.png" alt="nasa logo" style="width: 150px; height: 40px; margin-bottom: 20px;"></a></li>
+        </div>
+        <!------------------------------------------------->
     </header>
         <section class="section-a">
             <div class="section-a-inner">
                 <h4>Big News!</h4>
                 <h2>NASA Tech Launching on Falcon Heavy</h2>
-                <div><a href="#">learn more</a></div>
+                <a href="#" class="btn">
+                    <div class="hover"></div>
+                    <span>learn more</span>
+                </a>
             </div>
         </section>
 
+        <main>
             <section class="info-section">
                 <div class="info-container">
                     <div class="info-1">
                         <a href="#">  
                             <img src="img/rover.jpg" alt="mars rover image">
-                            <div class="inner-info-div">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, eligendi itaque aspernatur optio soluta accusamus similique maiores tempore expedita natus!</div>4
+                            <div class="inner-info-div">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, eligendi itaque aspernatur optio soluta accusamus similique maiores tempore expedita natus!</div>
                         </a>
                     </div>
                     <div class="info-2">
@@ -110,5 +134,10 @@
                     </div>
                 </div>
             </section>
+        </main>
+        <footer>
+            <p>National Aeronautics and Space Administration</p>
+            <p>Mock website created by Dylan Suther</p>
+        </footer>
 </body>
 </html>
